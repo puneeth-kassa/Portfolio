@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    position: relative; /* Add this */
+}
+.header-content h1 {
+    font-size: 2.5rem;
+}
+.profile-picture {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px;
+    border-radius: 75%; /* Create a circular shape */
+    object-fit: cover; /* To ensure the image fills the circular area */
+    position: absolute; /* Add this */
+    top: 75px; /* Adjust top position as needed */
+    left: 75px; /* Adjust left position as needed */
+}
+    
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+    
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+    
+nav ul li a {
+    text-decoration: none; 
+    color:#fff;
+}
+    
+.section-content {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+download-button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem; 
+    text-decoration: none; 
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.download-button:hover {
+    background-color: goldenrod;
+}  
+    
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+ul {
+    list-style-type: lower-roman;
+    padding-left: 20px;
+}
+.top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:#333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    display: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.top-button:hover {
+    background-color: #333;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+.toggle-button {
+background-color: yellow;
+color:green;
+padding: 0.5rem 1rem;
+text-decoration: none;
+border-radius: 20px;
+display: inline-block;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.toggle-button:hover {
+    background-color: goldenrod;
+}
